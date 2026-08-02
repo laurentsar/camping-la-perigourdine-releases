@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/camping-la-perigourdine-releases/sw.js', { scope: '/camping-la-perigourdine-releases/' })})}
