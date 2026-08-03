@@ -1,4 +1,4 @@
-import{_ as e,c as t,d as n,g as r,l as i,m as a,o,p as s,u as c,v as l,y as u}from"./index-DU8jAC7W.js";import{t as d}from"./Modal-8yTHjyok.js";var f=u(l(),1),p=e();function m(e){return e.replace(/\D/g,``).replace(/(\d{3})(?=\d)/g,`$1 `).trim()}function h(e,t,r,i){let a=`Facture ${t.numero} — ${i.raisonSociale}`,o=t.lignes.map(e=>`- ${e.description} : ${e.quantite} x ${c(e.prixUnitaire)} = ${c(e.quantite*e.prixUnitaire)}`).join(`
+import{_ as e,c as t,d as n,g as r,l as i,m as a,o,p as s,u as c,v as l,y as u}from"./index-JeYBVyx8.js";import{t as d}from"./Modal-DtDt-qeD.js";var f=u(l(),1),p=e();function m(e){return e.replace(/\D/g,``).replace(/(\d{3})(?=\d)/g,`$1 `).trim()}function h(e,t,r,i){let a=`Facture ${t.numero} — ${i.raisonSociale}`,o=t.lignes.map(e=>`- ${e.description} : ${e.quantite} x ${c(e.prixUnitaire)} = ${c(e.quantite*e.prixUnitaire)}`).join(`
 `),s=[i.raisonSociale,i.adresse,i.siren?`SIREN : ${m(i.siren)}`:``,i.mentionTva].filter(Boolean).join(`
 `),l=`Bonjour ${e.prenom},
 
