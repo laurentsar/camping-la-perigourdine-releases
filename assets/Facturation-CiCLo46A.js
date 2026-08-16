@@ -1,4 +1,4 @@
-import{a as e,b as t,d as n,i as r,l as i,n as a,o,p as s,s as c,v as l,x as u,y as d}from"./index-BL9_bRQz.js";var f=u(t(),1),p=d();function m(e){return e.replace(/\D/g,``).replace(/(\d{3})(?=\d)/g,`$1 `).trim()}function h(e,t,n,r){let i=`Facture ${t.numero} — ${r.raisonSociale}`,a=t.lignes.map(e=>`- ${e.description} : ${e.quantite} x ${o(e.prixUnitaire)} = ${o(e.quantite*e.prixUnitaire)}`).join(`
+import{a as e,b as t,d as n,i as r,l as i,n as a,o,p as s,s as c,v as l,x as u,y as d}from"./index-D3tQYXcs.js";var f=u(t(),1),p=d();function m(e){return e.replace(/\D/g,``).replace(/(\d{3})(?=\d)/g,`$1 `).trim()}function h(e,t,n,r){let i=`Facture ${t.numero} — ${r.raisonSociale}`,a=t.lignes.map(e=>`- ${e.description} : ${e.quantite} x ${o(e.prixUnitaire)} = ${o(e.quantite*e.prixUnitaire)}`).join(`
 `),s=[r.raisonSociale,r.adresse,r.siren?`SIREN : ${m(r.siren)}`:``,r.mentionTva].filter(Boolean).join(`
 `),l=`Bonjour ${e.prenom},
 
